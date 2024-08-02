@@ -25,8 +25,7 @@ A comprehensive Django project utilizing Redis and RQ for background task proces
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/henrymanke/rq.git .
    ```
 
 2. **Create a virtual environment:**
