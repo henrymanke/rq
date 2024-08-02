@@ -56,6 +56,7 @@ A comprehensive Django project utilizing Redis and RQ for background task proces
    INSTALLED_APPS = [
        # other apps...
        'django_rq',
+       'rq_app',
    ]
 
    RQ_QUEUES = {
@@ -93,6 +94,7 @@ A comprehensive Django project utilizing Redis and RQ for background task proces
 ## Enqueuing Tasks
 
 To enqueue a task, you can use Django-RQ's enqueue function. The `rq_app/urls.py` provides a test URL for enqueuing a sample task:
+`http://localhost:8000/rq/test/`
 
 ### URL Configuration
 
